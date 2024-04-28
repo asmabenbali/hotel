@@ -1,0 +1,424 @@
+@media (min-aspect-ratio: 16/9) {
+    .back {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back {
+        width: auto;
+        height: 100%;
+    }
+}
+@media (max-width: 1000px) {
+
+
+    .headline {
+        font-size: 30px;
+    }
+
+    .input-section {
+
+        border-radius: 0px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .input-section .iputs {
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+
+    .first_section {
+        display: flex;
+        gap: 0px;
+        width: 80%;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    #Rooms-sect{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .button_sev {
+        margin-left: 30px;
+    }
+
+    .archive_details {
+        display: block;
+        text-align: center;
+    }
+
+    .footer_main {
+        display: block;
+    }
+
+    .footer_bas {
+        display: flex;
+        justify-content: center;
+    }
+
+    .payment-methods {
+        display: none;
+    }
+}
+
+@media (width < 930px) {
+    .sidebar {
+        top: 0;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction:  column;
+        border-radius: 0px 99px 99px 0px;
+    }
+    
+    .sidebar:hover {
+        height: 100%;
+        width: 200px;
+    }
+    
+    .logo img {
+        width: 43px;
+        border-radius: 50%;
+    }
+    .links li{
+        margin: 5px 5px;
+    }
+    .sidebar .links {
+        display: block;
+        height: 80%;
+    }
+
+    /* sid bar */
+    /* ______________________________ */
+    .secondary-headline {
+        font-size: 1.5rem;
+      }
+    .headline {
+        font-size: 27px;
+    }
+
+    .input-section {
+
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+
+    }
+
+    .input-section .iputs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+
+    .input_text h3 {
+        font-size: 33px;
+    }
+
+    .div_btn a {
+        font-size: 15px;
+        padding: 10px 30px;
+        ;
+    }
+
+    .first_section {
+        display: flex;
+        gap: 0px;
+        width: 80%;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .contents img {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .archive {
+        width: 80%;
+    }
+
+    .archive_details h5 {
+        font-size: 3em;
+    }
+
+    .archive_details {
+        display: block;
+        text-align: center;
+    }
+    .counter-info p {
+        letter-spacing: 0.12em;
+        font-size: .7rem;
+      }
+    .center p{
+        font-size: .8rem;
+    }
+
+    .coutnair_card {
+        width: 250px;
+        height: 345px;
+
+    }
+
+    .details table {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .button {
+        padding: .5rem 1rem;
+        margin-top: 0;
+    }
+
+    .details td {
+        padding: 10px;
+        color: var(--pip1);
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+
+    .footer_main {
+        display: block;
+    }
+
+    .footer_bas {
+        display: flex;
+        justify-content: center;
+    }
+
+    .payment-methods {
+        display: none;
+    }
+
+
+    .client__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width < 630px) {
+
+    
+.sidebar {
+    top: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction:  column;
+   
+}
+
+.sidebar:hover {
+    height: 100%;
+    width: 200px;
+}
+
+.logo img {
+    width: 43px;
+    border-radius: 50%;
+}
+.links li{
+    margin: 5px 5px;
+}
+.sidebar .links {
+    display: block;
+    height: 80%;
+}
+    /* nav */
+
+
+    .inputs {
+        display: block;
+    }
+
+    input {
+        padding: 5px;
+    }
+
+    .div_btn a {
+        margin-top: 20px;
+    }
+
+    /* booking */
+
+    .first_section {
+        width: 80%;
+        display: block;
+        align-items: center;
+        gap: 0px;
+    }
+    .contents img {
+        width: 30px;
+        margin-right: 15px;
+      }
+    
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .button_sev {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* first section */
+    .gallery {
+        display: block;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(2, 150px);
+        grid-auto-rows: 200px;
+    }
+
+    /* gallery */
+    /* clients */
+    .client__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* clients */
+    /* footer */
+    .footer__container {
+        display: block;
+
+    }
+
+    /* footer */
+}
+@media (min-width: 280px) and (max-width: 453px){
+    .sidebar {
+        top: 0;
+        width: 40px;
+        height:40px;
+        display: flex;
+        align-items: center;
+        flex-direction:  column;
+       
+    }
+    
+    .sidebar:hover {
+        height: 100%;
+        width: 200px;
+    }
+    .links li{
+        margin: 5px 5px;
+    }
+    .logo img {
+        width: 30px;
+        border-radius: 50%;
+    }
+    
+    .sidebar .links {
+        display: block;
+        height: 80%;
+    }
+        /* nav */
+        .headline {
+            font-size: 20px;
+        }
+    .content a{
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+        .inputs {
+            display: block;
+        }
+    
+        input {
+            padding: 5px;
+        }
+    
+        .div_btn a {
+            margin-top: 20px;
+        }
+    
+        /* booking */
+    
+        .first_section {
+            width: 80%;
+            display: block;
+            align-items: center;
+            gap: 0px;
+        }
+        .contents img {
+            width: 30px;
+            margin-right: 15px;
+          }
+        
+    
+        .box {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        .button_sev {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        /* first section */
+        .wrapper{
+            max-width: 100%;
+        }
+        .marquee img{
+            width: 150px;
+            height: 200px;
+        }
+    
+        /* gallery */
+        /* clients */
+        .client__grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        /* clients */
+
+        .reward__container h4{
+            font-size: 1rem;
+        }
+        /* footer */
+        .footer__container {
+            display: block;
+    
+        }
+    
+}
