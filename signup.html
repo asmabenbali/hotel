@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <aside class="sidebar">
+    <div class="logo">
+        <img src="./icon/png2.png" alt="logo">        </div>
+    <ul class="links">
+        <li>
+            
+            <a href="./index.html">Main</a>
+          </li>
+        <li>
+           
+            <a href="./anotherpage.html">About</a>
+        </li>
+        <li>
+           
+            <a href="./room.html">Rooms</a>
+        </li>
+        <li>
+             <a href="./gallery.html">Gallery</a>
+        </li>
+        <li>
+           
+            <a href="./blog.html">News</a>
+        </li>
+        <hr>
+        
+        <li>
+            
+            <a href="./login.html">Log In</a>
+        </li>
+        <li>
+            
+            <a href="./contact.html">Contact</a>
+        </li>
+        <li>
+            
+            <a href="erreur.html">Settings</a>
+        </li>
+        <li class="logout-link">
+        
+            <a href="#">Logout</a>
+        </li>
+        <li class="logout-link">
+            
+          <a href="./table.html">CRUD</a>
+      </li>
+    </ul>
+</aside>
+
+  <section class="signup">
+    <div class="headline">
+      <h1>Welcome </h1>
+      <p>Join the Community: Create Your Account Today!</p>
+    </div>
+    <div class="container">
+      <h1 class="form-title">SignUp</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" />
+          </div>
+          <div class="user-input-box">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" />
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" />
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number" />
+          </div>
+          <div class="user-input-box">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" />
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" />
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Register">
+        </div>
+        
+
+        <div class="media-options">
+          <a href="#" class="field facebook">
+            
+            <span>Login with Facebook</span>
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+
+        <div class="media-options">
+          <a href="#" class="field google">
+            
+            <span>Login with Google</span>
+            <i class="fa-brands fa-google"></i>
+          </a>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>

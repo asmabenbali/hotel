@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/table.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <title>CRUD</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="./icon/png2.png" alt="logo">        </div>
+        <ul class="links">
+            <li>
+                
+                <a href="./index.html">Main</a>
+              </li>
+            <li>
+               
+                <a href="./anotherpage.html">About</a>
+            </li>
+            <li>
+               
+                <a href="./room.html">Rooms</a>
+            </li>
+            <li>
+                 <a href="./gallery.html">Gallery</a>
+            </li>
+            <li>
+               
+                <a href="./blog.html">News</a>
+            </li>
+            <hr>
+            
+            <li>
+                
+                <a href="./login.html">Log In</a>
+            </li>
+            <li>
+                
+                <a href="./contact.html">Contact</a>
+            </li>
+            <li>
+                
+                <a href="erreur.html">Settings</a>
+            </li>
+            <li class="logout-link">
+            
+                <a href="#">Logout</a>
+            </li>
+            <li class="logout-link">
+            
+                <a href="./table.html">CRUD</a>
+            </li>
+        </ul>
+    </aside>
+  <section class="container">
+        <h2>CRUD Application</h2>
+        <form action="" id="form">
+            <label for="name">User Name:</label><br><br>
+            <input type="text" id="name" placeholder="UserName" required>
+            <br><br>
+            <label for="email">Email:</label><br><br>
+            <input type="email" id="email" placeholder="Email" required>
+            <br><br>
+            <label for="phone">Phone Number:</label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required><br>
+            <br>
+            <button name="submit" >Add</button>
+        </form>
+       <table id="table">
+          <tr>
+            <th>user Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Action</th>
+          </tr>
+
+        
+     </table>
+  </section>
+</body>
+<script src="./js/table.js"></script>
+</html>

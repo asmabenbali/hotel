@@ -1,0 +1,15 @@
+<div class="box">
+        <img src="./img/for gallery/blog5.jpg" alt="">
+        <h4>Far far away behind the world mountains</h4>
+        <p>Decembre 12,2023.<span class="material-icons">mode_comment</span> 3 Commnets</p>
+      </div>
+      <div class="box">
+        <img src="./img/for gallery/blog6.jpg" alt="">
+        <h4>The Big Oxmox advised her not to do so because there were thousands</h4>
+        <p>Decembre 12,2023.<span class="material-icons">mode_comment</span> 3 Commnets</p>
+      </div>
+      <div class="box">
+        <img src="./img/for gallery/blog11.jpg" alt="">
+        <h4>Vokalia and Consonantia, there live the blind texts</h4>
+        <p>Decembre 12,2023.<span class="material-icons">mode_comment</span> 3 Commnets</p>
+      </div>
